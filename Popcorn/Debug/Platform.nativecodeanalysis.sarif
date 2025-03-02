@@ -1,0 +1,106 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'AsPlatform::Meltdown_Platform_Y_Pos' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/Popcorn_Project/Popcorn/Popcorn/Platform.cpp"
+                },
+                "region": {
+                  "startLine": 32,
+                  "startColumn": 13
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "AsPlatform::{ctor}",
+                  "decoratedName": "??0AsPlatform@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "AsPlatform::Meltdown_Platform_Y_Pos"
+          }
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.38.33134.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///E:/Popcorn_Project/Popcorn/Popcorn/Platform.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "ab518074894de341afe1e3fcd539a694c093e8741f95146f5abb03ac2502604f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/popcorn_project/popcorn/popcorn/platform.h"
+          },
+          "hashes": {
+            "sha-256": "e15634ce935ec5c461d7293b74d0ff670a6f30128bffe1b5f09e7cefe6dc8f1e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/popcorn_project/popcorn/popcorn/ball.h"
+          },
+          "hashes": {
+            "sha-256": "9515f4939b51d4606fe939fffae4c5564b4a02641acdea24ed58ee7a5a93cc1d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/popcorn_project/popcorn/popcorn/config.h"
+          },
+          "hashes": {
+            "sha-256": "b6659e85d7e8e91ecb0ccf1b495da0c3231f4a753908c50d2bf0d8abab5d62ca"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/popcorn_project/popcorn/popcorn/falling_letter.h"
+          },
+          "hashes": {
+            "sha-256": "a95c452041d8f39479163b2d571277cf61a5019299b4b969e3d303952098feda"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/popcorn_project/popcorn/popcorn/active_brick.h"
+          },
+          "hashes": {
+            "sha-256": "2b594941541f6bcc9f1f811dbb09b30dcc0959a39c8ebb886c36d55cfaa3d79a"
+          }
+        }
+      ]
+    }
+  ]
+}

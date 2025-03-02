@@ -1,0 +1,59 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.38.33134.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///e:/popcorn_project/popcorn/popcorn/border.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "2987971ebbbb7a2de2917fdf07d942e3639badbd883c6af5aa90866be92bc870"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/popcorn_project/popcorn/popcorn/border.h"
+          },
+          "hashes": {
+            "sha-256": "27e8390111104b6c9992a746e9148923b66560c2a0a911bd86d9780452ca37b9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/popcorn_project/popcorn/popcorn/ball.h"
+          },
+          "hashes": {
+            "sha-256": "9515f4939b51d4606fe939fffae4c5564b4a02641acdea24ed58ee7a5a93cc1d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/popcorn_project/popcorn/popcorn/config.h"
+          },
+          "hashes": {
+            "sha-256": "b6659e85d7e8e91ecb0ccf1b495da0c3231f4a753908c50d2bf0d8abab5d62ca"
+          }
+        }
+      ]
+    }
+  ]
+}

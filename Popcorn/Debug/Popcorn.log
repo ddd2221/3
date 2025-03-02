@@ -1,0 +1,12 @@
+﻿  Engine.cpp
+  Main.cpp
+  Platform.cpp
+  Generating Code...
+E:\Popcorn_Project\Popcorn\Popcorn\Platform.cpp(89,76): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+E:\Popcorn_Project\Popcorn\Popcorn\Platform.cpp(1112,11): warning C4101: 'y': unreferenced local variable
+E:\Popcorn_Project\Popcorn\Popcorn\Platform.cpp(1112,8): warning C4101: 'x': unreferenced local variable
+E:\Popcorn_Project\Popcorn\Popcorn\Platform.cpp(1197,30): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+E:\Popcorn_Project\Popcorn\Popcorn\Platform.cpp(1148,8): warning C4101: 'width': unreferenced local variable
+  Popcorn.vcxproj -> E:\Popcorn_Project\Popcorn\Debug\Popcorn.exe
+  "pwsh.exe" не является внутренней или внешней
+  командой, исполняемой программой или пакетным файлом.

@@ -1,0 +1,75 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.38.33134.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///e:/popcorn_project/popcorn/popcorn/main.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "bee74af20773d54c986d19f1e8734b2b562d38d867b9b09500bbe1b6b56e229a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/popcorn_project/popcorn/popcorn/framework.h"
+          },
+          "hashes": {
+            "sha-256": "4afdded82fbf3d4822d743ea3c3167e11c9fb84591759b871761f4a27e761d77"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/popcorn_project/popcorn/popcorn/targetver.h"
+          },
+          "hashes": {
+            "sha-256": "98488711a351764d005e8c3d3fd40aaed28396870a660c28abd81ac2a53d4b90"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/popcorn_project/popcorn/popcorn/main.h"
+          },
+          "hashes": {
+            "sha-256": "e84131c5d14299dff9d925f2f121492ef8a88e64f6dec172ef63d5c3199e6b13"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/popcorn_project/popcorn/popcorn/resource.h"
+          },
+          "hashes": {
+            "sha-256": "0e0fcbb2580f1ba3a08fe0f6095d0903d35dee1f0a512d902dfb434f0fe816c0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/popcorn_project/popcorn/popcorn/engine.h"
+          },
+          "hashes": {
+            "sha-256": "085a9f9046f11f1c26ae33e0bb9f813fb5af13902dcd113a54ed6aba6c33e516"
+          }
+        }
+      ]
+    }
+  ]
+}
